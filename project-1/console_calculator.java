@@ -47,6 +47,6 @@ public class console_calculator {
             default:
                 System.out.println("Неизвестная операция");
         }
-
+        scanner.close();
     }
 }
